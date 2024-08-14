@@ -1,6 +1,6 @@
-// import foto from '/foto1.png';
+import foto from '/foto1.png';
 
-export function Hangman (){
+export function Hangman() {
 
     return (
             <div className="hangmanContainer">

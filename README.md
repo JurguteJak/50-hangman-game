@@ -15,13 +15,15 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://github.com/JurguteJak/50-hangman-game/
 
-## 🎯 Project features/goals
+## Used
 
-## 🧰 Getting Started
+⏺️ React
 
-### 💻 Prerequisites
+⏺️ CSS
 
-### 🏃 Run locally
+⏺️ Vite.js
+
+### 🏃 How to use
 
 Would like to run this project locally? Open terminal and follow these steps:
 
@@ -41,9 +43,12 @@ Would like to run this project locally? Open terminal and follow these steps:
     npm install
     ```
 3. Run the server
+
     ```sh
     npm run dev
     ```
+
+⏺️ You can also play the game in your browser at http://localhost:5173/
 
 ### 🧪 Running tests
 
@@ -51,7 +56,7 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Rimantas: [Github](https://github.com/JurguteJak)
+Jurgita: [Github](https://github.com/JurguteJak)
 
 ## ⚠️ License
 
