@@ -22,4 +22,4 @@ export function Keyboard({ guessWord, handleGuess, startGame }) {
             </div>
         </div>
     );
-}
+};
