@@ -1,7 +1,31 @@
+.hangmanContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.startButton {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: burlywood;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: blue;
+    margin-top: 20px;
+}
+
+.startButton:hover {
+    background-color: aqua;
+}
+
 h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.foto {
+    display: flex;
 }
 .hidden{
     display: flex;
@@ -15,4 +39,14 @@ h1 {
     font-size: 20px;
     position: relative;
     
+}
+
+@media (max-width: 768px) {
+    .hidden {
+        font-size: 30px;
+    }
+
+    .lives {
+        font-size: 18p
+    }
 }

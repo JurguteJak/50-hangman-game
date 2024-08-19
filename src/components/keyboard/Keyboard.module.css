@@ -48,3 +48,14 @@
 .key:hover {
     background-color: #d0d0d0;
 }
+
+@media (max-width: 768px) {
+    .keyboardContainer {
+        padding: 20px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}

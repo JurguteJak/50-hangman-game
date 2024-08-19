@@ -1,7 +1,7 @@
 
 import style from './Keyboard.module.css';
 
-export function Keyboard({ guessWord, handleGuess, startGame }) {
+export function Keyboard({ handleGuess, startGame, gameStarted }) {
     const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
     return (
@@ -11,8 +11,7 @@ export function Keyboard({ guessWord, handleGuess, startGame }) {
                     <button 
                         key={letter} 
                         className={style.key}
-                        onClick={() => handleGuess(letter)}
-                        disable={guessWord.includes(letter)}
+                        onClick={() => handleGuess(letter)}                      
                         >{letter}
                     </button>
                 ))}
