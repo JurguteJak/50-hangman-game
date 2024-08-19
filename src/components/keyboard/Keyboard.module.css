@@ -2,9 +2,8 @@
     width: 200px;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* margin-top: 20px; */
+    align-items: center;
+    justify-content: center;
     padding: 30px;
 }
 .keyboar {
@@ -21,13 +20,14 @@
     gap: 10px;
 }
 .btn {
-    font-size: 16px;
+    font-size: 20px;
     padding: 10px 20px;
     background-color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     color: blue;
+    background-color: bisque;
 }
 .btn:hover {
     background-color: aqua;
