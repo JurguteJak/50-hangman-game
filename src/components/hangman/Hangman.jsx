@@ -85,7 +85,7 @@ export function Hangman() {
   if (isWordGuessed) {
     return (
       <div className={style.hangmanContainer}>
-        <h2>You Win !!!!!</h2>
+        <h>You Win !!!!!</h2>
         <button className={style.btn} onClick={startGame}>Start Game</button>
       </div>
     );
