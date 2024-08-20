@@ -60,13 +60,3 @@ h2 {
 .btn:hover {
     background-color: aqua;
 }
-
-/* @media (max-width: 768px) {
-    .hidden {
-        font-size: 30px;
-    }
-
-    .lives {
-        font-size: 18p
-    }
-} */
