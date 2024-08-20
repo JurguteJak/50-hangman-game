@@ -66,7 +66,7 @@ export function Hangman() {
   if (!gameStarted) {
     return (
       <div className={style.hangmanContainer}>
-        <h1>Hangman game</h1>
+        <h1 className={style.game}>Hangman game</h1>
         <button className={style.startButton} onClick={startGame}>Start Game</button>
       </div>
     );
@@ -75,7 +75,7 @@ export function Hangman() {
   if (lives === 0) {
     return (
       <div className={style.hangmanContainer}>
-        <h1>Game Over</h1>
+        <h2>Game Over</h2>
         <img className={style.foto} src={fullFoto} alt="foto" />
         <button className={style.btn} onClick={startGame}>Start Game</button>
       </div>
@@ -85,7 +85,7 @@ export function Hangman() {
   if (isWordGuessed) {
     return (
       <div className={style.hangmanContainer}>
-        <h1>You Win</h1>
+        <h2>You Win !!!!!</h2>
         <button className={style.btn} onClick={startGame}>Start Game</button>
       </div>
     );
