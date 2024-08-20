@@ -43,8 +43,6 @@ Would like to run this project locally? Open terminal and follow these steps:
     npm run dev
     ```
 
-⏺️ You can also play the game in your browser at http://localhost:5173/
-
 ## 🎅 Authors
 
 Jurgita: [Github](https://github.com/JurguteJak)
